@@ -167,6 +167,10 @@ body{
   top:50px;
   left:50px;
 }
+.movie-info h2{
+  background-color: yellow;
+  opacity: 0.8;
+}
 .movie-info{
   position: absolute;
   top:0;
@@ -180,16 +184,20 @@ body{
   height:200px;
   width:200px;
   position: absolute;
-  top:400px;
+  top:450px;
   left:1100px;
 }
 .plograming-info{
   position: absolute;
-  top:350px;
+  top:400px;
   left:50px;
   border-bottom:1px solid black;
 }
-
+.plograming-info h2{
+  width: 950px;
+  background-color: violet;
+  opacity: 0.8;
+}
 .assetmanagement{
   position: relative;
 }
@@ -202,8 +210,12 @@ body{
 }
 .assetmanagement-info{
   position: absolute;
-  top:800px;
+  top:850px;
   left:400px;
+}
+.assetmanagement-info h2{
+  background-color: tomato;
+  opacity: 0.8;
 }
 .word{
   text-align: center;
