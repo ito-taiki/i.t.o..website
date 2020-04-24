@@ -2,15 +2,21 @@ body{
   width:1500px;
 }
 .header{
-  height:250px;
+  height:200px;
 }
 .header-logo{
   height:150px;
   background-color: lightsteelblue;
 }
+.header-logo img{
+  height: 80px;
+  width:80px;
+  padding:30px 50px;
+  float:left;
+}
 .header-logo h1{
   color:white;
-  padding:45px 80px;
+  padding:45px 100px;
   font-size:40px;
 }
 .header-list{
@@ -32,11 +38,13 @@ body{
   padding:100px;
 }
 .PLOFILE{
-  height:500px;
+  height:400px;
   padding:20px 80px;
-}
-.PLOFILE{
   position:relative;
+}
+.PLOFILE h1{
+  border-left:10px solid orangered;
+  padding-left:20px;
 }
 .PLOFILE-img img{
   width:300px;
@@ -85,6 +93,10 @@ body{
 }
 .SKILL{
   height:1400px;
+}
+.SKILL h1{
+  border-left:10px solid orangered;
+  padding-left:20px;
 }
 .LINE{
   background-color: yellowgreen;
@@ -200,4 +212,8 @@ body{
 .CONTACT{
   padding:0 80px;
   height:300px;
+}
+.CONTACT h1{
+  border-left:10px solid orangered;
+  padding-left:20px;
 }
